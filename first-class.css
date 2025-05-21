@@ -1,0 +1,132 @@
+.class-selector {
+    background-color: blue;
+}
+
+.class3 .class2{
+    background-color: aqua;
+}
+
+#id-selector {
+    background-color: darkmagenta;
+    color: hsla(0, 100%, 50%, 0.7);
+}
+
+h1 {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+/* p{
+        font-weight: 500;
+            text-indent: 200px;
+                line-height: 40px;
+
+
+} */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+
+
+/* div { */
+    /* border: 20px solid #568914; */
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: red; */
+    /* border-right-width: 40px;
+       
+    padding: 30px;
+     padding-bottom: 70px;
+    margin-right: 50px;
+    margin-left: 40px;
+    height: 500px;
+    width: 500px; */
+/* } */
+
+/* Aditya CSS Styles */
+
+.my-content {
+    border: 1px solid green;
+    padding: 5px 10px 20px 30px;
+    color: white;
+    background-color: black;
+}
+
+.my-content:active{
+    background-color: brown;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+}
+
+.my-img{
+    border-radius: 50%;
+}
+
+a:link{
+    background-color: darkgoldenrod;
+    color: red;
+}
+/* 
+li:first-child{
+    background-color: black;
+} */
+
+p::first-letter{
+    background-color: pink;
+    font-size: 50px;
+}
+
+li:nth-child(odd){
+    background-color: blue;
+}
+
+.my-content p{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input {
+    background-color: pink;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: bisque;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

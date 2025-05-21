@@ -1,0 +1,84 @@
+:root{
+    --primary-color: #d33434;
+    --bg-color: #ca9a5f;
+    --max-height: 200px
+}
+
+
+body{
+    background-color: var(--bg-color);
+    margin: 0;
+    /* background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*xMuIOwjliGUPjkzukeWKfw.jpeg"); */
+    /* background-image: linear-gradient( pink, violet,orange, red); */
+    /* background-image: radial-gradient( pink, orange,red); */
+}
+
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(8, 150px);
+    grid-template-rows: repeat(3,200px);
+    gap: var(--max-height)
+}
+
+.main-div div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 10px #655e5e;
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+
+.main-div div:nth-child(2){
+    position: relative;
+    border: 20px solid pink;
+    margin: 30px;
+    padding: 30px;
+    top: 100px
+}
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    /* margin-top: 400px; 
+    position: sticky;
+    top:50px;
+    z-index: -2 */
+}
+
+.navbar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h1{
+    display: inline;
+    opacity: 1;
+    text-shadow: 2px 3px 3px red;
+}
+
+a{
+    display: block;
+}
+
+form{
+    visibility: hidden;
+}
+
+
