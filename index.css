@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+       url('fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ /* common styles */
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+    box-shadow: 0px 5px 20px #f0ecec;
+    margin-bottom: 50px;
+}
+
+.navbar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+ul{
+    list-style: none;
+
+}
+
+*{
+    font-family: 'Poppins', Arial, 'Helvetica Neue', sans-serif;
+}
+
+/* heading-section styles */
+.heading-section{
+    padding: 0px 150px;
+}
+
+.heading-section-title{
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.heading-section-title::first-letter{
+    font-size: 42px;
+}
+
+.heading-section-subtitle{
+       margin: 0;
+        font-size: 18px;
+    opacity: .9;
+    margin-top: 8px;
+}
+
+/* filter section styles */
+.filters-section{
+    padding: 0px 150px;
+    margin-top: 30px;
+}
+
+.filters-section div{
+    display: flex;
+    gap:12px
+}
+
+
+/* Extra small Devices */
+.filter-buttons{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer
+}
+
+.filter-buttons:hover{
+    scale: 1.1;
+}
+
+
+/* restaurant-section styles */
+
+.restaurant-section{
+    padding: 0px 150px;
+}
+
+.restaurant-section-title{
+    color: #02060ceb;
+}
+
+.restaurant-section-card{
+    margin-bottom: 12px;
+}
+.restaurant-section-card img{
+    width: 280px;
+    height: 185px;
+    border-radius: 20px;
+}
+
+.restaurant-section-card-content{
+    padding: 5px 8px;
+}
+.restaurant-section-card-content h3, p{
+    margin: 0;
+}
+
+.restaurant-section-card-content-description{
+    color: #02060c99;
+    font-weight: 500
+}
+
+.restaurant-section-card-container{
+    /* display: grid;
+    grid-template-columns: repeat(4, 300px); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Small devices */
+/* @media screen and (min-width: 576px){
+ .filter-buttons{
+    background-color: red;
+ }
+} */
+
+.desktop{
+    display: none
+}
+
+/* Desktop Devices */
+@media screen and (min-width: 768px){
+ .filter-buttons{
+    background-color: black;
+ }
+
+ .mobile{
+    display: none;
+ }
+
+ .desktop{
+    display: block;
+ }
+
+ .restaurant-section-card-container{
+    flex-direction: row;
+ }
+
+}
+
